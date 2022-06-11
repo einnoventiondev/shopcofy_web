@@ -21,6 +21,12 @@
 @media(max-width:767px){
     /* 540px to  767px */
     /* tablets and bigger mobiles */
+    .navbar-brand.mobile {
+        display: block;
+    }
+    .navbar-brand.desktop {
+        display: none;
+    }
 }
 @media(max-width:539px){
     /* 360px to  539px */
