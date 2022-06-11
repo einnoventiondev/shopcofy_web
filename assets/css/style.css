@@ -1,0 +1,87 @@
+/*
+Theme name:;
+autor:ahsan Contact Whatsup + skype +923014749625;
+*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root{
+	--white: #fff;
+}
+
+body,html{
+	font-family: 'Montserrat';
+}
+h1,h2,h3,h4,h5,h6,p,span,form,ul,a{
+    margin: 0;
+    padding: 0;
+}
+img{
+	max-width: 100%;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+    transition: all 0.3s ease-in-out;
+}
+a:hover{
+    transition: all 0.3s ease-in-out;
+}
+.wrapper{
+	display: flex;
+}
+.d-col{
+    flex-direction: column;
+}
+.al-center{
+	align-items: center;
+}
+.jst-center{
+	justify-content: center;
+}
+.jst-btw{
+	justify-content: space-between;
+}
+.jst-end{
+    justify-content: flex-end;
+}
+.mgb-0{
+	margin-bottom: 0 !important;
+}
+.mgt-0{
+	margin-top: 0 !important;
+}
+.mgr-0{
+	margin-right: 0 !important;
+}
+.mgl-0{
+	margin-left: 0 !important;
+}
+.mgl-auto{
+    margin-left: auto;
+}
+.mgr-auto{
+    margin-right: auto;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.capitalize{
+	text-transform: capitalize;
+}
+.btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transition:  all 0.3s ease-in-out;
+}
+.container-cutomize{
+	width: 90%;
+	margin: 0 auto;
+}
