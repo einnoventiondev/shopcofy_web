@@ -1,7 +1,10 @@
 	
 
 $(document).ready(function() {
-    
+    // communities section box slide animation
+    $('.box').click(function() {
+        $('p').slideToggle();
+    })
     $(window).scroll(function() {
         if ($(document).scrollTop() > 70) {
             $('.nav').addClass('affix');
@@ -22,6 +25,8 @@ $(document).ready(function() {
 		duration: 1000
 	});
     // animation on scroll
+    
+    
 
 });
 

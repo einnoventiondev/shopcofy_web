@@ -13,6 +13,7 @@
 	padding: 20px;
 	margin-bottom: 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .box h1 {
 	text-align: left;
@@ -23,9 +24,9 @@
 .box p {
 	display: none;
 }
-.box:hover p {
+/* .box:hover p {
 	display: block;
-}
+} */
 .description {
 	font-size: 18px;
 	width: 100%;
