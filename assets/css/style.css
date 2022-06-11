@@ -137,6 +137,12 @@ a:hover{
 	font-weight: 600;
 	line-height: 2;
 }
+.box p {
+	display: none;
+}
+.box:hover p {
+	display: block;
+}
 .description {
 	font-size: 18px;
 	width: 100%;
