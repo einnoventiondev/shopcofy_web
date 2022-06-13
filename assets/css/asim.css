@@ -1,4 +1,67 @@
+/* banner css start here */
+.banner{
+    padding-top: 140px;
+    padding-bottom: 88px;
+    background: #edf5f7;
+}
+.shopify-text {
+    display: flex;
+    align-items: center;
+    width: 340px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #fff;
+    font-size: 16px;
+}
+.shopify-logo{
+    width: 80px;
+    height: 20px;
+}
+.shopify-text p{
+    padding-right: 0px;
+    padding-left: 10px;
+}
 
+.banner-heading {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-image: none;
+    background-size: auto;
+    background-repeat: repeat;
+    font-size: 50px;
+    line-height: 57px;
+    font-weight: 700;
+}
+.banner-txt {
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 30px;
+}
+.banner-logos {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.customer-logo {
+    width: 126px;
+    object-fit: scale-down;
+}
+
+.black-btn {
+    background-color: #000;
+    border-color: #000;
+    width: 180px;
+    height: 50px;
+    border-radius: 40px;
+    font-family: Lexend, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+/* counter css start here */
 .counter-section{
     background: url('../images/global-world-map-bg.png') no-repeat;
     background-size: cover;
@@ -65,3 +128,4 @@
     line-height: 30px;
     text-align: center;
 }
+
