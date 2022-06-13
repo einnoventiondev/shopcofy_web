@@ -1,0 +1,41 @@
+.from_button {
+
+    height: 64px;
+    margin-top: 60px;
+    margin-left: 0px;
+    font-size: 18px;
+}
+.btn-build{
+    align-items: center;
+    border-radius: 100px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    /* padding: 12.54px 10px; */
+    padding: 18.54px 18px;
+    line-height: 28px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-build:hover{
+    background-image: linear-gradient(180deg, #7ab7ff 5%, #5c6ac4 37%, #79b3fc 95%, #fff);
+    color: #fff;
+    text-decoration: none;
+}
+.footer-section .get-the-plobal{
+    font-weight: bold;
+    margin-bottom: 10px;  
+    font-size: 23px;
+    line-height: 36px;
+}
+.footer {
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px none #c7dde2;
+    background-color: #fafdfe;
+}
+.build-app{
+    margin-top: 20px;
+    font-size: 18px;
+}
