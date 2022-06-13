@@ -1,0 +1,67 @@
+
+.counter-section{
+    background: url('../images/global-world-map-bg.png') no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    padding-top: 40px;
+}
+.boost-heading{
+    text-align: center;
+}
+.boost-heading p{
+    color: #5d6bc5;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.boost-heading h2{
+    font-size: 40px;
+    line-height: 48px;
+    max-width: 68%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.counter-card-main{
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.counter-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-heading h3, .counter-heading span{
+    margin-top: 0px;
+    font-size: 65px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.counter-card {
+    background-color: #edf5f7;
+    text-align: center;
+    border-radius: 20px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.counter-discription {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #414141;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}

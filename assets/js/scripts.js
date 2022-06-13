@@ -26,7 +26,12 @@ $(document).ready(function() {
 	});
     // animation on scroll
     
-    
+    // counter
+
+    $('.counterup').counterUp({
+        delay: 100,
+        time: 1000
+    });
 
 });
 
