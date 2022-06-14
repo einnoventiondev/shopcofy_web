@@ -52,10 +52,107 @@
 .footer-bottom{
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 .social-icons a{
     background-color: black;
     border-radius: 50%;
-    padding: 8px;
     color: #fff;
+    padding: 3px 7px;
+    margin-right: 10px;
+}
+.social-icons .fa-facebook-f{
+    padding: 3px;
+
+}
+.social-icons{
+    margin-right: 50px;
+
+}
+.home-policy{
+    padding-left: 110px;
+}
+.links-list li{
+    padding-top: 15px;
+    color: #000;
+    font-size: 16px;
+}
+.links-list a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* blog-carousel start */
+#blog-carousel{
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 0px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+
+}
+.side-ribbon{
+    position: absolute;
+    bottom: 95px;
+    display: block;
+    width: 100px;
+    height: 400px;
+}
+.carousel-content h1{
+    font-size: 54px;
+    line-height: 66px;
+}
+.pargaph-trusted{
+    height: auto;
+    margin-top: 30px;
+    color: #c4c4c4;
+    font-size: 18px;
+    line-height: 30px;
+}
+.ceo-box{
+    display: flex;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+.about-ceo{
+    color: #c4c4c4;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+.percentage-boxes{
+    display: flex;
+    width: auto;
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-left: auto;
+    padding-right: 24px;
+}
+.box-details{
+    align-items: center;
+    border-radius: 15px;
+    background-color: #181818;
+    padding: 20px 10px;
+    text-align: center;
+    margin-right: 27px;
+
+}
+.pargaph-p{
+    margin-bottom: 10px;
+    font-size: 21px;    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    color: #d0d0d0;
+
+}
+.owl-carousel .owl-item img{
+    width: auto !important;
+    max-width: 100% !important;
 }
