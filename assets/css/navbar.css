@@ -1,4 +1,8 @@
 /* === Navbar ===  */
+.navbar {
+	background: #edf5f7;
+	padding-top: 30px;
+}
 .navbar-collapse {
     justify-content: center;
 }

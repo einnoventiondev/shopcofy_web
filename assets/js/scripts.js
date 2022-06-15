@@ -63,6 +63,24 @@ $(document).ready(function() {
         }
     });
 
+    $('.box').hover(function() {
+        var img = $(this).attr('img');
+        $(this).find('p').toggleClass('d-none');
+        $('.'+img).removeClass('d-none');
+        $('.'+img).nextAll().addClass('d-none');
+        $('.'+img).prevAll().addClass('d-none');
+    })
+
+
+    $(window).scroll(function(){
+        $('.navbar').addClass('bg-white');
+        $('.navbar').css({'padding-top' : '10px', 'padding-bottom' : '10px'});
+        if($(this).scrollTop() === 0) {
+            $('.navbar').removeClass('bg-white');
+            $('.navbar').css('padding-top', '30px');
+        }
+      });
+
 });
 
 
