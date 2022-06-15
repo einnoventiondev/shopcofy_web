@@ -24,9 +24,9 @@
 .box p {
 	display: none;
 }
-/* .box:hover p {
+.box:hover p {
 	display: block;
-} */
+}
 .description {
 	font-size: 18px;
 	width: 100%;
@@ -37,4 +37,14 @@
 }
 .content {
 	margin-top: 60px;
+}
+.btn.heading {
+	background-color: #000;
+    color: #fff !important;
+    border-radius: 50px;
+    font-weight: 600;
+    padding: 16px;
+    width: 400px;
+    height: 65px;
+    font-size: 18px;
 }
