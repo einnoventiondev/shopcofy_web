@@ -200,3 +200,23 @@ audio, canvas, progress, video {
     object-fit: cover;
     z-index: -100;
 }
+
+.owl-carousel .owl-nav button.owl-prev{
+    display: none;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    right: 80px;
+    bottom: 113px;
+}
+
+.next-arrow{
+    color: #000;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 3.2;
+    text-align: center;
+    background-image: linear-gradient(90deg, #7ab7ff 0%, #5c6ac4 0%, #79b3fc 95%);
+}
