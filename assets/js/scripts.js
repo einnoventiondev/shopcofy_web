@@ -37,16 +37,18 @@ $(document).ready(function() {
 
     var owl = $('.blog-content');
     owl.owlCarousel({
+        animateOut: 'fadeOut',
         loop: true,
         nav: true,
+        dots: true,
         items: 1,
-        touchDrag: true,
+        touchDrag: false,
+        mouseDrag: false,
         autoplay: false,
         autoplayTimeout: 5000,
         smartSpeed: 1000,
         autoplayHoverPause: true,
-        dots: true,
-        // navText: ['<i class="fa-solid fa-chevron-left"></i>','<i class="fa-solid fa-chevron-right"></i>'],
+        navText: ['<i class="fa-solid fa-chevron-left"></i>','<div class="next-arrow"><i class="fa-solid fa-chevron-right"></i></div>'],
         responsive: {
             0: {
                 items: 1,
