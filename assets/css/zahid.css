@@ -9,6 +9,7 @@
     align-items: center;
     border-radius: 100px;
     background-color: #000;
+    border: none;
     color: #fff;
     font-weight: 600;
     /* padding: 12.54px 10px; */
@@ -18,9 +19,10 @@
     text-decoration: none;
 }
 .btn-build:hover{
-    background-image: linear-gradient(180deg, #7ab7ff 5%, #5c6ac4 37%, #79b3fc 95%, #fff);
+    background-image: linear-gradient(180deg, #7ab7ff 5%, #5c6ac4 37%, #79b3fc 95%);
     color: #fff;
     text-decoration: none;
+    border: none;
 }
 .footer-section .get-the-plobal{
     font-weight: bold;
