@@ -261,3 +261,19 @@
     font-size: 18px;
     line-height: 30px;
   }
+
+  /* Cards sec  start*/
+  .card-img-logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+  }
+  .card-img-logo img{
+    width: 15%;
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+  #cards-sec{
+    padding: 100px 0;
+  }
