@@ -207,6 +207,7 @@
 #faq{
     margin-top: 80px;
     background-color: #fff;
+    margin-bottom: 60px;
 }
 #faq .faq-title{
     text-align: center;
@@ -217,3 +218,46 @@
     margin-top: 51px;
 
 }
+/* marquee section */
+#marquee-sec{
+    margin-top: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #edf5f7;
+}
+#marquee-sec .tools-title{
+    margin-top: 0px;
+    margin-bottom: 8px;
+    padding-top: 20px;
+    font-size: 30px;
+    line-height: 48px;
+}
+#marquee-sec .marquee-images img{
+    margin-right: 60px;
+    width: 12%;
+}
+.marquee-images{
+    height: 150px;
+    align-items: center;
+    display: flex;
+}
+/* .marquee-images{
+    animation: marquee-horizontal-alt 60s linear infinite;
+
+} */
+.marquee-title{
+    text-align: center;
+
+}
+.comerce-exp{
+    text-align: center;
+
+}
+/* @keyframes marquee-horizontal-alt {
+    from { transform: translateX(-90%); }
+    to { transform: translateX(0%); }
+  } */
+  .marquee-title p{
+    font-size: 18px;
+    line-height: 30px;
+  }
