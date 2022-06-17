@@ -119,3 +119,84 @@
     text-align: center;
 }
 
+
+/* ////////////////////////////// banner iframe ////////////////////////////// */
+.banner-right {
+    width: 100%;
+    max-width: none;
+    padding-top: 10px;
+    margin-left: 0px;
+    border-radius: 20px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#7ab7ff), to(#5c6ac4));
+    background-image: linear-gradient(180deg, #7ab7ff, #5c6ac4);
+    opacity: 1;
+    text-align: center;
+
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+figure {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.banner-frame {
+    position: relative;
+    width: 345px;
+    height: 648px;
+    margin-top: -35px;
+    margin-right: auto;
+    margin-left: auto;
+
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.iphone-frame {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: block;
+    width: 345px;
+    max-width: none;
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.bg-video2 {
+    position: absolute;
+    left: 23px;
+    top: 18px;
+    width: 300px;
+    height: 100%;
+    max-width: 300px;
+}
+
+.bg-video {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    color: white;
+}
+
+.bg-video>video {
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    right: -100%;
+    bottom: -100%;
+    top: -100%;
+    left: -100%;
+    object-fit: cover;
+    z-index: -100;
+}
