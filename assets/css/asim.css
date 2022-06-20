@@ -208,7 +208,8 @@ audio, canvas, progress, video {
 .owl-carousel .owl-nav button.owl-next{
     position: absolute;
     right: 80px;
-    bottom: 113px;
+    bottom: 213px;
+
 }
 
 .next-arrow{
