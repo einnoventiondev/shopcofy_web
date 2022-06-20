@@ -120,6 +120,8 @@
     height: auto;
     margin-top: 30px;
     margin-left: 0px;
+    margin-bottom: 200px;
+
 }
 .about-ceo{
     color: #c4c4c4;
@@ -279,6 +281,11 @@
   }
 
   /* login page css start*/
+
+  .body-wrapper-login {
+    background-color: #eee !important;
+    height: 100vh!important;
+  }
   .gradient-custom-2:hover{
     vertical-align: bottom;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.2),0 2px 10px 0 rgba(0,0,0,.1) !important;
