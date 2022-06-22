@@ -452,3 +452,35 @@
 
   }
   /* qoute-sec end */
+  /* enterprise-carousel start*/
+  .content-details-enterprise{
+    display: flex;
+    align-items: center;
+  }
+  #enterprise-carousel{
+    background-color: #000;
+    position: relative;
+    margin-top: 100px;
+    background-color: #000;
+    background-image: url(/assets/images/ribben-bg.png);
+    background-position: 100% 50%;
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .content-details-left h2{
+    color: #7AB7FF !important;
+  }
+  .content-details-left{
+    color: #fff;
+  }
+  .content-details-left p{
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .content-details-left span{
+    line-height: 42px;
+    font-size: 26px;
+  }
+  /* enterprise-carousel end*/
