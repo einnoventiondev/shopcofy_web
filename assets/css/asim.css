@@ -223,3 +223,52 @@ audio, canvas, progress, video {
     text-align: center;
     background-image: linear-gradient(90deg, #7ab7ff 0%, #5c6ac4 0%, #79b3fc 95%);
 }
+
+
+/* about section */
+
+.about-section{
+    position: relative;
+    margin-top: 100px;
+    background-color: #000;
+    background-image: url(/assets/images/ribben-bg.png);
+    background-position: 100% 50%;
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.notification-text{
+    width: 80%;
+    max-width: 100%;
+    color: #fff;
+}
+.scroll-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+}
+.notification-list{
+    list-style: disc;
+    margin-left: 40px;
+}
+.notification-heading{
+    margin: 20px 0 10px 0;
+}
+
+
+.scroll-grid-images{
+    position: sticky;
+    top: 100px;
+    /* overflow: hidden; */
+}
+
+.scroll-grid-images img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
