@@ -121,7 +121,11 @@
     margin-top: 30px;
     margin-left: 0px;
     margin-bottom: 200px;
-
+}
+.ceo-box img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
 }
 .about-ceo{
     color: #c4c4c4;
@@ -170,7 +174,7 @@
 }
 .owl-carousel button.owl-dot.active{
     background-color: #7AB7FF !important;
-    border:  2px solid !important;
+    border: 2px solid #7AB7FF !important;
 }
 .owl-carousel .owl-dot{
     width: 1em;
@@ -405,3 +409,46 @@
     }
 
   /* login page css end*/
+
+  /***************
+    Enterprise box
+   **************/
+  /* qoute-sec start */
+  .quote-content{
+    padding-top: 35px;
+
+  }
+  .profile-rounded-img{
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .profile-rounded-img img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+  .quote-content p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 38px;
+    padding: 0 132px;
+
+  }
+  .quote-content .profile-name  {
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .quote-content .about-profile{
+    color: #414141;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .logo-profile img{
+    width: 100px;
+    
+    margin: 10px 0;
+
+  }
+  /* qoute-sec end */
