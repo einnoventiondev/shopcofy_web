@@ -470,6 +470,7 @@
   }
   .content-details-left h2{
     color: #7AB7FF !important;
+    margin-bottom: 10px;
   }
   .content-details-left{
     color: #fff;
@@ -477,10 +478,13 @@
   .content-details-left p{
     line-height: 30px;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .content-details-left span{
     line-height: 42px;
     font-size: 26px;
+  }
+  .p-enterprise{
+    padding: 50px 0px;
   }
   /* enterprise-carousel end*/
