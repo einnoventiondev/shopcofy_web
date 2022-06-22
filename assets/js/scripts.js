@@ -83,6 +83,27 @@ $(document).ready(function() {
         }
       });
 
+    $('input').click(function(){
+        $(this).next().addClass('label-active')
+
+    })
+    $("input").focus(function(){
+        $(this).next().addClass('label-active')
+        // if($(this).val().length === 0){
+        //     $(this).next().removeClass('label-active')
+        // }
+      });
+
+    $('input').keyup(function(){
+        $(this).next().addClass('label-active')
+        if($(this).val().length === 0){
+        $(this).next().removeClass('label-active')
+    }
+
+    });
+
+
+
 });
 
 
