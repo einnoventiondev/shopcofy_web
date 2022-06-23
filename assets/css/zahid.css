@@ -487,4 +487,17 @@
   .p-enterprise{
     padding: 50px 0px;
   }
+  #enterprise-carousel .owl-dots{
+    justify-content: left;
+    padding-bottom: 50px ;
+  }
+  #enterprise-carousel .owl-carousel button.owl-dot{
+    border: 2px solid #fff !important;
+  }
+  #enterprise-carousel .owl-carousel button.owl-dot.active{
+    border: 2px solid #7AB7FF !important;    
+  }
   /* enterprise-carousel end*/
+  /* more than platform start*/
+  
+  /* more than platform end*/
