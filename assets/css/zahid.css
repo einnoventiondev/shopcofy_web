@@ -499,5 +499,119 @@
   }
   /* enterprise-carousel end*/
   /* more than platform start*/
-  
+  #more-than-platform .text-span-bg{
+    background-image: url(/assets/images/text-bg.png);
+    background-position: 100% 0%;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    line-height: 78px;
+  }
+  .platform-details h1{
+    font-size: 30px;
+  }
+  #more-than-platform{
+    background-color: #000;
+    position: relative;
+    color: #fff;
+    padding: 50px 0;
+  }
+  .partner-image img{
+    border-radius: 10%;
+    height: 100%;
+    width: 320px;
+  }
+  .platform-details .banerp{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    white-space: normal;
+  }
+  #more-than-platform .baner-details,.partner-box{
+    justify-content: center;
+
+  }
+  #more-than-platform button{
+    background-image: linear-gradient(180deg, #7ab7ff 5%, #5c6ac4 37%, #79b3fc 95%);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    /* padding: 12.54px 10px; */
+    padding: 18.54px 18px;
+    line-height: 28px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .before-check li::before{
+    content:  url(/assets/images/check-icon.svg); 
+    position: absolute;
+    margin-left: -49px;
+    padding: 6px 0px 0px 0px;
+    
+  }
+  .margn-100{
+    margin-top: 100px;
+  }
+  .before-check{
+    position: relative;
+  }
+  .before-check li{
+    line-height: 3;
+    padding-left: 50px;
+    font-size: 19px;
+    font-weight: 600;
+    
+  }
   /* more than platform end*/
+
+  /* pricing start*/
+  #pricing-sec{
+    padding: 50px 0;
+  }
+  .card-content h2{
+    position: static;
+    width: 100%;
+    margin: 0px;
+    border: 0px none #000;
+    border-radius: 0px;
+    background-image: linear-gradient(224deg, #7ab7ff, #5c6ac4);
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    font-size: 23px;
+    line-height: 66px;
+    font-weight: 700;
+    text-align: center;
+  }
+ .price{
+    background-image: linear-gradient(224deg, #7ab7ff, #5c6ac4);
+    color: #7ab7ff;
+    font-size: 34px;
+    line-height: 40px;
+    white-space: normal;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .price-per-month{
+    font-family: Poppins, sans-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .success-fee{
+    color: #000;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .success-fee .price{
+    font-size: 28px !important;
+    line-height: 34px !important;
+  }
+  /* pricing end*/
