@@ -32,7 +32,7 @@
 }
 .footer {
     margin-bottom: 0px;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 10px;
     border-bottom: 2px none #c7dde2;
     background-color: #fafdfe;
@@ -92,9 +92,9 @@
     background-color: #000;
     color: #fff;
     margin-bottom: 0px;
-    padding-top: 120px;
     padding-bottom: 80px;
     position: relative;
+    padding: 50px 0;
 
 }
 .side-ribbon{
@@ -163,6 +163,7 @@
 .owl-carousel .owl-item img{
     width: auto !important;
     max-width: 100% !important;
+    margin-bottom: 20px;
 }
 .owl-dots{
     display: flex;
@@ -242,7 +243,8 @@
 }
 #faq .faq-title{
     text-align: center;
-   margin: 10px 0;
+    padding: 50px 0;
+
    font-size: 54px;
 }
 .accordion-flush{
@@ -252,8 +254,7 @@
 /* marquee section */
 #marquee-sec{
     margin-top: 0px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 50px 0;
     background-color: #edf5f7;
 }
 #marquee-sec .tools-title{
@@ -298,15 +299,18 @@
     align-items: center;
     display: flex;
     justify-content: center;
-
+    border-top: 1px solid #d2d5d9;
+    border-bottom: 1px solid #d2d5d9;
+    padding: 40px 10px;
   }
   .card-img-logo img{
-    width: 15%;
-    margin-right: 10px;
-    padding-left: 10px;
+    height: 50px;
+    width: 17%;
+    margin: 5px 10px;
   }
   #cards-sec{
-    padding: 100px 0;
+    padding: 50px 0;
+
   }
 
   /* login page css start*/
@@ -414,10 +418,10 @@
     Enterprise box
    **************/
   /* qoute-sec start */
-  .quote-content{
-    padding-top: 35px;
-
+  #quote-sec{
+    padding: 50px 0;
   }
+
   .profile-rounded-img{
     margin: auto;
     margin-bottom: 20px;
@@ -458,9 +462,9 @@
     align-items: center;
   }
   #enterprise-carousel{
+    padding: 50px 0;
     background-color: #000;
     position: relative;
-    margin-top: 100px;
     background-color: #000;
     background-image: url(/assets/images/ribben-bg.png);
     background-position: 100% 50%;
@@ -575,12 +579,21 @@
   #pricing-sec{
     padding: 50px 0;
   }
+  #pricing-sec .btn-build{
+    padding: 12.54px 25px !important;
+    font-size: 14px !important;
+
+  }
+  #pricing-sec .card-content{
+    border-radius: 13px;
+  }
   .card-content h2{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
     position: static;
     width: 100%;
     margin: 0px;
-    border: 0px none #000;
-    border-radius: 0px;
     background-image: linear-gradient(224deg, #7ab7ff, #5c6ac4);
     font-family: Poppins, sans-serif;
     color: #fff;
@@ -609,9 +622,44 @@
     color: #000;
     font-size: 18px;
     line-height: 18px;
+    line-height: 34px;
+
   }
   .success-fee .price{
     font-size: 28px !important;
     line-height: 34px !important;
+  } 
+  .card-body .or{
+    color: #979797;
+    font-size: 18px;
+    line-height: 42px;
+  }
+  .muted-text{
+    display: block;
+    width: 100%;
+    color: #585858;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  .trial{
+    line-height: 18px;
+    color: #6889dc;
+    font-size: 16px;
+  }
+  .pd-bottom{
+  padding-bottom: 20px;   
   }
   /* pricing end*/
+/* start */
+.Platform-btn{
+  width: 47%;
+}
+.table-heading{
+  justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    display: flex;
+}
+/* end */

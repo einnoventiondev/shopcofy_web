@@ -102,7 +102,9 @@ $(document).ready(function() {
 
     });
 
-
+        $('.plan-comp-btn').click(function() {
+          $(this).find(".table-heading").toggleClass('d-none')
+      });
 
 });
 
